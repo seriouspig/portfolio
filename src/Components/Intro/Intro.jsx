@@ -13,7 +13,7 @@ const Intro = () => {
             <button className="button i-button">Hire me</button>
         </div>
         <div className="i-right">
-
+            I am right side
         </div>
     </div>
   )
