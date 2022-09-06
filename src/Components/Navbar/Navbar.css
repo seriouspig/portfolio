@@ -39,3 +39,7 @@
     cursor: pointer;
     color: var(--orange);
 }
+.button-container {
+    flex: 0 0 120px;
+}
+
