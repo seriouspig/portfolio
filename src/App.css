@@ -28,7 +28,7 @@
 }
 
 .button:hover {
-  background: white;
+  background: rgb(97, 123, 179);
   cursor: pointer;
   color:rgba(15, 32, 65, 1);
   border: 1px solid rgba(90, 117, 168, 1);
