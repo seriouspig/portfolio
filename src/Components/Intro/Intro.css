@@ -5,7 +5,7 @@
 .intro{
     display: flex;
     height: 77vh;
-    margin-top: 6rem;
+    margin-top: 4rem;
 }
 
 .i-left{
@@ -47,7 +47,27 @@
 
 }
 
+.i-icons{
+    margin-top: 2rem;
+    display: flex;
+    gap: 0rem;
+}
+
+.i-icons>*{
+    transform: scale(0.5);
+}
+
+.i-icons>*:hover{
+    cursor: pointer;
+}
+
 
 .i-right{
     flex: 1;
+    position: relative;
+}
+
+.i-right>*{
+    position: absolute;
+    z-index: 1;
 }
