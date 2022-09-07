@@ -22,7 +22,7 @@ const Navbar = () => {
             </div>
             <div className="button-container">
                 <button className="button">
-                    Contact Us
+                    Contact
                 </button>
             </div>
 
