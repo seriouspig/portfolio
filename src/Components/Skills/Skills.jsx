@@ -3,6 +3,7 @@ import './Skills.css'
 import HeartEmoji from '../../img/heartemoji.png'
 import Glasses from '../../img/glasses.png'
 import Humble from '../../img/humble.png'
+import Card from '../Card/Card'
 
 const Skills = () => {
   return (
@@ -19,7 +20,13 @@ const Skills = () => {
         </div>
         {/* right side  */}
         <div className="cards">
-            I am the right side
+            <div>
+                <Card 
+                    emoji = {HeartEmoji}
+                    heading = {'Design'}
+                    detail = {"Figma, Sketch, Photoshop, Adobe, Adobe xd"}
+                    />
+            </div>
         </div>
     </div>
   )
