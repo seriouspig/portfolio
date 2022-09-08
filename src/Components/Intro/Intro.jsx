@@ -40,7 +40,7 @@ const Intro = () => {
                 <FloatingDiv image={Crown} txt1='Web' txt2='Developer'/>
             </div>
             <div style={{top: '18rem', left: '0rem'}}>
-                <FloatingDiv image={thumbup} txt1='Web' txt2='Developer'/>
+                <FloatingDiv image={thumbup} txt1='Best Design' txt2='DWawrd'/>
             </div>
             {/* blurs div */}
             <div className='blur' style={{background: "rgb(238 210 255)"}} >
