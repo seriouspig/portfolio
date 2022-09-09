@@ -10,6 +10,7 @@ const Skills = () => {
   return (
     <div className="skills">
         {/* left side */}
+        
         <div className="awesome">
         <span>My Awesome</span>
         <span>Services</span>
@@ -19,7 +20,7 @@ const Skills = () => {
         <a href={Resume} download>
             <button className="button s-button">Download CV</button>
         </a>
-        <div classNAme="blur s-blur" style={{background: "#ABF1FF94"}}></div>
+        <div className="blur s-blur1" style={{background: "var(--purple"}}></div>
         </div>
         {/* right side  */}
         <div className="cards">
@@ -44,6 +45,10 @@ const Skills = () => {
                     heading = {'3D modelling'}
                     detail = {"Blender 3D, Sketchup"}
                 />
+            </div>
+            
+            <div className="blur s-blur2" style={{background: "var(--purple"}}>
+
             </div>
         </div>
     </div>
