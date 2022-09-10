@@ -1,20 +1,29 @@
-import './App.css';
-import Contact from './Components/Contact/Contact';
-import Experience from './Components/Experience/Experience';
-import Footer from './Components/Footer/Footer';
-import Intro from './Components/Intro/Intro';
-import Navbar from './Components/Navbar/Navbar';
-import Portfolio from './Components/Portfolio/Portfolio';
-import Skills from './Components/Skills/Skills';
-import Testimonial from './Components/Testimonials/Testimonial';
-import Works from './Components/Works/Works';
-
+import Navbar from "./Components/Navbar/Navbar";
+import Intro from "./Components/Intro/Intro";
+import Services from "./Components/Skills/Skills";
+import "./App.css";
+import Experience from "./Components/Experience/Experience";
+import Works from "./Components/Works/Works";
+import Portfolio from "./Components/Portfolio/Portfolio";
+import Testimonial from "./Components/Testimonials/Testimonial";
+import Contact from "./Components/Contact/Contact";
+import Footer from "./Components/Footer/Footer";
+import { useContext } from "react";
+import { themeContext } from "./Context";
 function App() {
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
   return (
-    <div className="App">
+    <div
+      className="App"
+      style={{
+        background: darkMode ? "black" : "",
+        color: darkMode ? "white" : "",
+      }}
+    >
       <Navbar />
       <Intro />
-      <Skills />
+      <Services />
       <Experience />
       <Works />
       <Portfolio />

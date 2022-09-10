@@ -1,4 +1,5 @@
 import React from 'react'
+import Toggle from '../Toggle/Toggle'
 import './Navbar.css'
 
 const Navbar = () => {
@@ -9,6 +10,7 @@ const Navbar = () => {
                 SERIOUSPIG
             </div>
             {/* <span>toggle</span> */}
+            <Toggle />
         </div>
         <div className="n-right">
             <div className="n-list">
